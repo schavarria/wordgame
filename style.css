@@ -1,0 +1,70 @@
+html {box-sizing: border-box;}
+*,* :before, *:after {box-sizing: inherit;}
+ 
+
+ .main{
+ 	margin: 5% 30%;
+ 	width: 500px;
+ 	height: 375px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-color: rgba(177,222,204,.3);
+ 	border: double rgb(91,181,222);
+ 	border-radius: 7px;
+ 	box-shadow: -3px -1px 50px 4px rgba(98,112,110,1);
+ }
+
+ .Title{
+ 	margin-top: 10px;
+ 	text-align: center;
+ 	color:rgb(67,70,72);
+ 	text-shadow: 0 0 10px grey, 0 0 5px darkblue;
+ 	font-size: 50px;
+ 	font-weight: bold;
+ 	text-decoration: underline rgb(91,181,222);
+ }
+
+  .turns{
+ 	margin-top: 35px;
+ 	text-align: center;
+ 	color:rgb(67,70,72);
+ 	font-size: 20px;
+ }
+
+ .word{
+ 	margin-top: 20px;
+ 	text-align: center;
+ 	color:rgb(67,70,72);
+ 	font-size: 30px;
+ 	letter-spacing: 10px;
+
+ }
+
+ .guess{
+ 	margin-top: 20px;
+ 	margin-left:220px;
+ 	text-align: center;
+ 	width: 50px;
+ 	height: 50px;
+ 	color: black;
+ 	font-size: 35px;
+ 	background:transparent;
+ 	outline: none;
+ }
+
+ .letters{
+ 	margin-top: 20px;
+ 	text-align: center;
+ 	color:rgb(67,70,72);
+ 	font-size: 20px;
+ }
+
+ .results{
+ 	margin-top: 10px;
+ 	text-align: center;
+ 	color:rgb(144,148,149);
+ 	font-size: 35px;
+ 	font-weight: bold;
+ }
+ 
+
